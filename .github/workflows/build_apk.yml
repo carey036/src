@@ -6,12 +6,10 @@ on:
   workflow_dispatch:
   push:
     paths-ignore:
-      - '*.md'
       - '*.yml'
     branches: [ master ]
   pull_request:
     paths-ignore:
-      - '*.md'
       - '*.yml'
     branches: [ master ]
 
